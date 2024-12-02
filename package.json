@@ -12,12 +12,12 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "vite": "^6.0.1"
   },
   "dependencies": {
     "animaljam.js": "^1.0.32",
     "canvas-confetti": "^1.9.3",
-    "chart.js": "^4.4.7",
-    "gh-pages": "^6.2.0"
+    "chart.js": "^4.4.7"
   }
 }
