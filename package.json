@@ -1,12 +1,15 @@
 {
   "name": "project-vite-test2",
+  "homepage": "https://malgorzata-b.github.io/DataVisualization-Vite/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^6.0.1"
@@ -14,6 +17,7 @@
   "dependencies": {
     "animaljam.js": "^1.0.32",
     "canvas-confetti": "^1.9.3",
-    "chart.js": "^4.4.7"
+    "chart.js": "^4.4.7",
+    "gh-pages": "^6.2.0"
   }
 }
