@@ -1,0 +1,19 @@
+{
+  "name": "project-vite-test2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "animaljam.js": "^1.0.32",
+    "canvas-confetti": "^1.9.3",
+    "chart.js": "^4.4.7"
+  }
+}
