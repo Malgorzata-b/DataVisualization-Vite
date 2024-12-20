@@ -5,7 +5,7 @@ import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <h1>"Data Visualization!</h1>
+    <h1>Data Visualization!</h1>
      <div><h2>1. Doughnut Chart</h2>
      <canvas id="myChart"></canvas></div>
     <div><h2>2. Bar Chart</h2>
